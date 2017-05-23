@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-path-smoother
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-acado, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-nav-msgs, ros-indigo-orunav-constraint-extract, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-orunav-trajectory-processor, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-path-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-acado, ros-indigo-nav-msgs, ros-indigo-orunav-constraint-extract, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-orunav-trajectory-processor, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The orunav_path_smoother package

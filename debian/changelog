@@ -1,0 +1,9 @@
+ros-kinetic-orunav-conversions (0.0.1-0xenial) xenial; urgency=high
+
+  * Added install section.
+  * Initial version.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 23 May 2017 00:00:00 -0000
+
+

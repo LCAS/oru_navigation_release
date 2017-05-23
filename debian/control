@@ -1,0 +1,12 @@
+Source: ros-indigo-navigation-oru
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-navigation-oru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cititruck-description, ros-indigo-cititruck-gazebo, ros-indigo-cititruck-teleop, ros-indigo-euro-pallet, ros-indigo-gazebo-plugins-oru, ros-indigo-gazebo-worlds-oru, ros-indigo-orunav-constraint-extract, ros-indigo-orunav-conversions, ros-indigo-orunav-coordinator-fake, ros-indigo-orunav-debug, ros-indigo-orunav-fork-control, ros-indigo-orunav-generic, ros-indigo-orunav-geometry, ros-indigo-orunav-launch, ros-indigo-orunav-motion-planner, ros-indigo-orunav-mpc, ros-indigo-orunav-msgs, ros-indigo-orunav-node-utils, ros-indigo-orunav-pallet-detection-sdf, ros-indigo-orunav-params, ros-indigo-orunav-path-pool, ros-indigo-orunav-path-smoother, ros-indigo-orunav-rosbag-tools, ros-indigo-orunav-rviz, ros-indigo-orunav-trajectory-processor, ros-indigo-orunav-vehicle-execution
+Description: The navigation_oru package, AASS, Orebro University

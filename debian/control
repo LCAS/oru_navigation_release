@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-motion-planner
+Section: misc
+Priority: extra
+Maintainer: Marcello Cirillo <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-cv-bridge, ros-indigo-nav-msgs, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-motion-planner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cv-bridge, ros-indigo-nav-msgs, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The orunav_motion_planner package, the core was developped by Marcello Cirillo

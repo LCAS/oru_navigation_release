@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-path-pool
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libtinyxml-dev, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-nav-msgs, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-path-pool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml-dev, ros-indigo-nav-msgs, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The orunav_path_pool package - utilize .wef files (file format that the drawing layout tool exports) - see the README.txt

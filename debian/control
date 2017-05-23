@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-vehicle-execution
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-laser-geometry, ros-indigo-nav-msgs, ros-indigo-orunav-constraint-extract, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-node-utils, ros-indigo-orunav-rviz, ros-indigo-orunav-trajectory-processor, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-vehicle-execution
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-laser-geometry, ros-indigo-nav-msgs, ros-indigo-orunav-constraint-extract, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-node-utils, ros-indigo-orunav-rviz, ros-indigo-orunav-trajectory-processor, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf
+Description: The orunav_vehicle_execution package

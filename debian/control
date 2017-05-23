@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-pallet-detection-sdf
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-nav-msgs, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-pallet-detection-sdf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cv-bridge, ros-indigo-nav-msgs, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf-conversions
+Description: The orunav_pallet_detection_sdf package, based on the SDF implementation by Daniel Canelhas

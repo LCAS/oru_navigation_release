@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-node-utils
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-message-generation, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-node-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-orunav-conversions, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp
+Description: The orunav_node_utils package

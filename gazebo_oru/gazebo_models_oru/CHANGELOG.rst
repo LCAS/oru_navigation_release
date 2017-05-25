@@ -2,6 +2,9 @@
 Changelog for package gazebo_models_oru
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2017-05-25)
+------------------
+
 0.0.1 (2017-05-23)
 ------------------
 * Added env-hooks to handle GAZEBO_MODEL_PATH.

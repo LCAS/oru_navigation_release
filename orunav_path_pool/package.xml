@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>orunav_path_pool</name>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <description>The orunav_path_pool package - utilize .wef files (file format that the drawing layout tool exports) - see the README.txt</description>
 
   <maintainer email="henrik.andreasson@oru.se">Henrik Andreasson</maintainer>
@@ -15,6 +15,7 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>orunav_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
   <build_depend>orunav_generic</build_depend>
   <build_depend>orunav_rviz</build_depend>
   <build_depend>orunav_conversions</build_depend>
@@ -27,6 +28,7 @@
   <run_depend>std_msgs</run_depend>
   <run_depend>nav_msgs</run_depend>
   <run_depend>orunav_msgs</run_depend>
+  <run_depend>visualization_msgs</run_depend>
   <run_depend>orunav_generic</run_depend>
   <run_depend>orunav_rviz</run_depend>
   <run_depend>orunav_conversions</run_depend>

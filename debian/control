@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-fork-control
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-fork-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-indigo-orunav-generic, ros-indigo-orunav-msgs, ros-indigo-orunav-rviz, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-visualization-msgs
+Description: The orunav_fork_control package

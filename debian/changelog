@@ -1,0 +1,66 @@
+ros-indigo-orunav-conversions (0.0.10-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Mon, 12 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 09 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.8-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.5-0trusty) trusty; urgency=high
+
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Updated dependencies.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.4-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 25 May 2017 00:00:00 -0000
+
+ros-indigo-orunav-conversions (0.0.1-0trusty) trusty; urgency=high
+
+  * Added install section.
+  * Initial version.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 23 May 2017 00:00:00 -0000
+
+

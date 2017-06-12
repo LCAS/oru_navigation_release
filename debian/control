@@ -1,0 +1,12 @@
+Source: ros-indigo-cititruck-gazebo
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cititruck-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The cititruck_gazebo package

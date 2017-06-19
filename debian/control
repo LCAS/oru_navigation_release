@@ -1,0 +1,12 @@
+Source: ros-indigo-orunav-rosbag-tools
+Section: misc
+Priority: extra
+Maintainer: han <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-eigen-conversions, ros-indigo-nav-msgs, ros-indigo-orunav-generic, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-rosbag, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-tf-conversions
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-orunav-rosbag-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-indigo-eigen-conversions, ros-indigo-nav-msgs, ros-indigo-orunav-generic, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-rosbag, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-tf-conversions
+Description: The orunav_rosbag_tools package

@@ -2,11 +2,10 @@
 Changelog for package orunav_mpc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.2 (2017-06-19)
+0.2.0 (2017-09-15)
 ------------------
-* Revert "changed to gazebo8"
-  This reverts commit 3ab9b3f35bdabdff87abd911a6b9f208883179e9.
-* Contributors: Marc Hanheide
+* Removed start time checks.
+* Contributors: Henrik Andreasson
 
 0.1.1 (2017-06-13)
 ------------------

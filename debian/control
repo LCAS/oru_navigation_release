@@ -1,0 +1,12 @@
+Source: ros-kinetic-orunav-motion-planner
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-cv-bridge, ros-kinetic-nav-msgs, ros-kinetic-orunav-conversions, ros-kinetic-orunav-generic, ros-kinetic-orunav-geometry, ros-kinetic-orunav-msgs, ros-kinetic-orunav-rviz, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-orunav-motion-planner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-kinetic-cv-bridge, ros-kinetic-nav-msgs, ros-kinetic-orunav-conversions, ros-kinetic-orunav-generic, ros-kinetic-orunav-geometry, ros-kinetic-orunav-msgs, ros-kinetic-orunav-rviz, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-visualization-msgs
+Description: The orunav_motion_planner package, the core was developped by Marcello Cirillo

@@ -1,0 +1,12 @@
+Source: ros-kinetic-navigation-oru
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-navigation-oru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cititruck-description, ros-kinetic-cititruck-gazebo, ros-kinetic-cititruck-teleop, ros-kinetic-euro-pallet, ros-kinetic-gazebo-models-oru, ros-kinetic-gazebo-plugins-oru, ros-kinetic-gazebo-worlds-oru, ros-kinetic-map-server, ros-kinetic-orunav-constraint-extract, ros-kinetic-orunav-conversions, ros-kinetic-orunav-coordinator-fake, ros-kinetic-orunav-debug, ros-kinetic-orunav-fork-control, ros-kinetic-orunav-generic, ros-kinetic-orunav-geometry, ros-kinetic-orunav-launch, ros-kinetic-orunav-motion-planner, ros-kinetic-orunav-mpc, ros-kinetic-orunav-msgs, ros-kinetic-orunav-node-utils, ros-kinetic-orunav-pallet-detection-sdf, ros-kinetic-orunav-params, ros-kinetic-orunav-path-pool, ros-kinetic-orunav-path-smoother, ros-kinetic-orunav-rosbag-tools, ros-kinetic-orunav-rviz, ros-kinetic-orunav-trajectory-processor, ros-kinetic-orunav-vehicle-execution
+Description: The navigation_oru package, AASS, Orebro University

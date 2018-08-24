@@ -14,5 +14,11 @@ install(DIRECTORY
    urdf
    meshes
    launch
+   calibration
    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+)
+
+install(PROGRAMS
+  calibration/save_calibration.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )

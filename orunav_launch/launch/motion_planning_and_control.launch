@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <launch>	
-  <arg name="robotid" default="1"/>
-  <arg name="prefix" default="robot1"/>
+  <arg name="robot_id" default="1"/>
+  <arg name="prefix" default="robot$(arg robot_id)"/>
   <arg name="use_safetyregions" default="false"/>
   <group ns="$(arg prefix)">
     <param name="tf_prefix" value="$(arg prefix)" />
     
     <node pkg="orunav_mpc" type="controller_node" name="controller" output="screen">
-      <param name="robot_id" value="$(arg robotid)" />
+      <param name="robot_id" value="$(arg robot_id)" />
     </node>
     <include file="$(find orunav_fork_control)/launch/fork_control_sim.launch" />
     
@@ -44,10 +44,13 @@
       <param name="reassign_constraints" value="true" />
       <param name="reassign_iters" value="1" />
       <param name="reassign_min_distance" value="0.1" />
+      <param name="use_incremental" value="true" />
+      <param name="incr_max_nb_points" value="30" />
+      <param name="incr_nb_points_discard" value="10" />
     </node>  
 
     <node pkg="orunav_vehicle_execution" type="orunav_vehicle_execution_node" name="orunav_vehicle_execution_node" output="screen">
-      <param name="robot_id" value="$(arg robotid)" />
+      <param name="robot_id" value="$(arg robot_id)" />
       <param name="visualize" value="true" />
       <param name="max_tracking_error" value="-1." />
       <param name="use_forks" value="true" />

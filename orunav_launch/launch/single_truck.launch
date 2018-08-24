@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <launch>
 
+  <arg name="robot_id" default="1" />
+  <arg name="tf_prefix" value="robot$(arg robot_id)"/>
+
   <rosparam command="load" file="$(find orunav_params)/config/global.cfg"/>
   <rosparam command="load" file="$(find orunav_params)/config/citi1_simulation.cfg" />
 
@@ -22,10 +25,11 @@
   <!-- ALL ROBOT SPECIFIC TASKS -->
 
   <group ns="robot1">
-  <param name="tf_prefix" value="robot1" />
+  <param name="tf_prefix" value="robot1"/>
 
   <node pkg="orunav_mpc" type="controller_node" name="controller" output="screen">
-        <param name="robot_id" value="1" />
+        <param name="robot_id" value="$(arg robot_id)" />
+	<remap from="/$(arg tf_prefix)/cmd_vel" to ="/$(arg tf_prefix)/controller/cmd_vel"/>
   </node>
   <include file="$(find orunav_fork_control)/launch/fork_control_sim.launch" />
 
@@ -62,6 +66,9 @@
     <param name="reassign_constraints" value="true" />
     <param name="reassign_iters" value="1" />
     <param name="reassign_min_distance" value="0.1" />
+    <param name="use_incremental" value="true" />
+    <param name="incr_max_nb_points" value="30" />
+    <param name="incr_nb_points_discard" value="10" />
   </node>  
 
   <node pkg="orunav_vehicle_execution" type="orunav_vehicle_execution_node" name="orunav_vehicle_execution_node_citi1" output="screen">

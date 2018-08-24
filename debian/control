@@ -1,0 +1,12 @@
+Source: ros-kinetic-gazebo-plugins-oru
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), gazebo8, libboost-all-dev, libeigen3-dev, libgazebo8-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-gazebo8-msgs, ros-kinetic-gazebo8-plugins, ros-kinetic-gazebo8-ros, ros-kinetic-orunav-generic, ros-kinetic-roscpp, ros-kinetic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gazebo-plugins-oru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gazebo8, libboost-all-dev, libeigen3-dev, libgazebo8-dev, ros-kinetic-gazebo8-msgs, ros-kinetic-gazebo8-plugins, ros-kinetic-gazebo8-ros, ros-kinetic-orunav-generic, ros-kinetic-roscpp, ros-kinetic-rospy
+Description: The gazebo_plugins_oru package

@@ -1,13 +1,31 @@
 <?xml version="1.0"?>
-<launch>	
-  <arg name="robot_id" default="1"/>
-  <arg name="prefix" default="robot$(arg robot_id)"/>
-  <arg name="use_safetyregions" default="false"/>
-  <group ns="$(arg prefix)">
-    <param name="tf_prefix" value="$(arg prefix)" />
-    
+<launch>
+
+  <rosparam command="load" file="$(find orunav_params)/config/global.cfg"/>
+  <rosparam command="load" file="$(find orunav_params)/config/citi1_simulation.cfg" />
+
+  <include file="$(find cititruck_gazebo)/launch/cititruck_robot_lab.launch"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find cititruck_description)/launch/cititruck.rviz"/>
+
+  
+  <include file="$(find gazebo_worlds_oru)/launch/robot_lab_map_server.launch"/>
+
+  <node pkg="orunav_vehicle_execution" type="point_n_click_target_client" name="point_n_click_target_client_citi1" output="screen">
+    <param name="load_operation" value="false" />
+    <rosparam param="robot_ids">[1]</rosparam>
+    <param name="multiple_vehicles" value="true" />
+  </node>
+
+  <node pkg="orunav_coordinator_fake" type="coordinator_fake_node" name="coordinator_fake_node" output="screen">
+    <param name="multiple_vehicles" value="true" />
+    <param name="use_ct" value="false" />  
+  </node>
+
+  <group ns="robot1">
+    <param name="tf_prefix" value="robot1" />
+
     <node pkg="orunav_mpc" type="controller_node" name="controller" output="screen">
-      <param name="robot_id" value="$(arg robot_id)" />
+      <param name="robot_id" value="1" />
     </node>
     <include file="$(find orunav_fork_control)/launch/fork_control_sim.launch" />
     
@@ -49,28 +67,16 @@
       <param name="incr_nb_points_discard" value="10" />
     </node>  
 
-    <node pkg="orunav_vehicle_execution" type="orunav_vehicle_execution_node" name="orunav_vehicle_execution_node" output="screen">
-      <param name="robot_id" value="$(arg robot_id)" />
+    <node pkg="orunav_vehicle_execution" type="orunav_vehicle_execution_node" name="orunav_vehicle_execution_node_citi1" output="screen">
       <param name="visualize" value="true" />
       <param name="max_tracking_error" value="-1." />
       <param name="use_forks" value="true" />
       
-      <param name="max_vel" value="0.5" />
+      <param name="max_vel" value="0.3" />
       <param name="max_rotational_vel" value="0.3" />
-      <param name="max_acc" value="0.3" />
-      <param name="max_steering_angle_vel" value="0.6"/>
-      
-      <param name="max_steering_range_smoothed_path" value="1.5" />
-      <param name="min_docking_distance" value="0.1" />
-      <param name="use_ct" value="false"/>
-
-      <param name="use_update_task_service" value="false"/>
-
-      <param name="use_safetyregions" value="$(arg use_safetyregions)"/>
-      <param name="safety_laser_topic" value="/nav_laser"/>
-      <param name="slowdown_drivingslow_lookahead_time" value="20"/>
-      <param name="max_slowdown_vel" value="0.1"/>
-     </node>
+      <param name="max_acc" value="0.1" />
+    </node>
     
   </group>
+  
 </launch>

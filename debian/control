@@ -1,0 +1,12 @@
+Source: ros-kinetic-gazebo-worlds-oru
+Section: misc
+Priority: extra
+Maintainer: Henrik Andreasson <henrik.andreasson@oru.se>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gazebo-worlds-oru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The gazebo_worlds_oru package

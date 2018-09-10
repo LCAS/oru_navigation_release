@@ -1,0 +1,114 @@
+ros-kinetic-orunav-msgs (0.3.0-1xenial) xenial; urgency=high
+
+  * Added arena files
+  * Merge branch 'master' into master
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Added abort service for coordiantor
+  * Merge upstream master branch into master
+  * Added extra obstacles in compute_task_service
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Added BT compatibility to the msgs.
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Contributors: Brucye Wayne, Federico Pecora, Henrik Andreasson, Joao Salvado
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 24 Aug 2018 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.2.2-1xenial) xenial; urgency=high
+
+  * Updated DEPENDS and CATKIN_DEPENDS.
+  * Synced RobotReport flags with vehicle_execution code
+  * Added missing state in Operation
+  * Added IliadItem and IliadItemArray messages, and augmented Operation message
+  * Contributors: Federico Pecora, Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 18 Jan 2018 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.2.1-1xenial) xenial; urgency=high
+
+  * merge
+  * Contributors: Martin Magnusson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 19 Sep 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.2.0-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 15 Sep 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.1.1-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 13 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.1.0-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 13 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.10-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Mon, 12 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.9-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 09 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.8-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.7-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.6-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.5-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.4-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.3-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.2-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 25 May 2017 00:00:00 -0000
+
+ros-kinetic-orunav-msgs (0.0.1-1xenial) xenial; urgency=high
+
+  * Fixed install section.
+  * Added install section.
+  * Initial version.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 23 May 2017 00:00:00 -0000
+
+

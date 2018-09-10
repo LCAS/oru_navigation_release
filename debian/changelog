@@ -1,0 +1,133 @@
+ros-kinetic-orunav-vehicle-execution (0.3.0-1xenial) xenial; urgency=high
+
+  * Added arena files
+  * Added small example of using targets file.
+  * Added random target generator.
+  * Merge branch 'master' into master
+  * Added shorter path fix.
+  * Merge upstream master branch into master
+  * Added extra obstacles in compute_task_service
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Merge pull request #16 <https://github.com/OrebroUniversity/navigation_oru-release/issues/16> from odysseus1766/master
+    adding boolean parameter to avoid the smoothing and contraints genera…
+  * adding boolean parameter to avoid the smoothing and contraints generation in vehicle execution node
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Fixed ros::Time problem.
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Laser filter function, filter out readings due to self occlusion.
+  * Contributors: Brucye Wayne, Federico Pecora, Henrik Andreasson, Joao Salvado, Odysseus1766
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 24 Aug 2018 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.2.2-1xenial) xenial; urgency=high
+
+  * Updated collision handling for the real trucks.
+  * Fixed truncation path bug in case1 trajectory computation.
+  * Visualization added of the brake zones..., for now some hardcoded parameters of the simulated navigation laser.
+  * Cleaned up, added hysteresis in changing DRIVE DRIVE_SLOWDOWN transitions.
+  * Updated DEPENDS and CATKIN_DEPENDS.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 18 Jan 2018 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.2.1-1xenial) xenial; urgency=high
+
+  * merge
+  * Contributors: Martin Magnusson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 19 Sep 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.2.0-1xenial) xenial; urgency=high
+
+  * Use ct check fix.
+  * Added AT_CRICITAL_POINT as a valid start point.
+  * Fixed use_ct_ bug.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 15 Sep 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.1.1-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 13 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.1.0-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 13 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.10-1xenial) xenial; urgency=high
+
+  * Fix to get it to build on binaries for indigo.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Mon, 12 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.9-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Fri, 09 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.8-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.7-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.6-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 08 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.5-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.4-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.3-1xenial) xenial; urgency=high
+
+
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Wed, 07 Jun 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.2-1xenial) xenial; urgency=high
+
+  * Merge branch 'master' of https://github.com/OrebroUniversity/navigation_oru-release
+  * Fixed dependencies.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Thu, 25 May 2017 00:00:00 -0000
+
+ros-kinetic-orunav-vehicle-execution (0.0.1-1xenial) xenial; urgency=high
+
+  * Added installed / updated targets.
+  * Fixed install params.
+  * Cleanup, fixing names removing un-used files.
+  * Added install section.
+  * Fixed package depend typos.
+  * Updated the installation instuctions, added a few examples to run.
+  * Initial version.
+  * Contributors: Henrik Andreasson
+
+ -- Henrik Andreasson <henrik.andreasson@oru.se>  Tue, 23 May 2017 00:00:00 -0000
+
+
